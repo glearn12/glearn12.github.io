@@ -1,303 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <title>Grace Learn</title>
 
-    <title>Grace Learn</title>
+  <!-- Put Favicon here-->
+  <link rel='icon' href='/favicon.png' type='image/png'/ >
 
-    <!-- Put Favicon here-->
+   <!-- Grace's fonts -->
+     <link href="style.css" type="text/css" rel="stylesheet">
 
-    <link rel='icon' href='/favicon.png' type='image/png'/ >
+     <link rel="stylesheet" href="https://use.typekit.net/mmp0thh.css">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap" rel="stylesheet" type='text/css'>
 
-    <!-- Grace's fonts -->
-        <link href="style.css" type="text/css" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Overpass:300,300i,400,400i,600,600i,900,900i&display=swap" rel="stylesheet">
 
-        <link rel="stylesheet" href="https://use.typekit.net/mmp0thh.css">
+     <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap&subset=latin-ext" rel="stylesheet">
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap" rel="stylesheet" type='text/css'>
+     <link href="https://fonts.googleapis.com/css?family=Baskervville&display=swap" rel="stylesheet">
 
-        <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
-
-        <link href="https://fonts.googleapis.com/css?family=Overpass:300,300i,400,400i,600,600i,900,900i&display=swap" rel="stylesheet">
-
-        <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap&subset=latin-ext" rel="stylesheet">
-
-        <link href="https://fonts.googleapis.com/css?family=Baskervville&display=swap" rel="stylesheet">
-
-    <!-- Bootstrap core CSS -->
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Material Design Bootstrap -->
-    <link href="./css/mdb.min.css" rel="stylesheet">
-
-    <!-- Your custom styles (optional) -->
-    <link href="./css/style.css" rel="stylesheet">
-    
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <style>
-    .full-height, .full-height body, .full-height header, .full-height header .view, .view .full-bg-img {
-        height: 100vh;
-    }
-        html,
-        body,
-        header,
-        .jarallax {
-          height: 100%;
-        }
-
-        @media (min-width: 560px) and (max-width: 740px) {
-          html,
-          body,
-          header,
-          .jarallax {
-            height: 600px;
-          }
-        }
-    </style>
 
 </head>
-<body class="developer">
+<body>
 
-   <!--Navigation & Intro-->
-    <header>
+
+<!-- navigation -->
+  <nav class="nav flex-column flex-sm-row scrolling-navbar justify-content-end mt-5 mr-5" style="font-family: 'Karla', sans-serif; font-weight: 400">
+    <a class="nav-item nav-link active text-dark"  href="/Users/gracelearn/Desktop/website%202.0/index.html">HOME</a>
+    <div class="dropdown">
+    <a class="nav-item nav-link dropdown-toggle text-dark" data-toggle="dropdown" id="servicesDropdown"aria-haspopup="true" aria-expanded="false" href="#">WORK</a>
+
+     <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+              <a class="dropdown-item" href="/Users/gracelearn/Desktop/website%202.0/united.html">United Airlines</a>
+              <a class="dropdown-item" href="/Users/gracelearn/Desktop/website%202.0/beats.html">Beats by Dre</a>
+              <a class="dropdown-item" href="/Users/gracelearn/Desktop/website%202.0/airbnb.html">Airbnb</a>
+          </div> <!-- close dropdown menu -->
         
-<div class="container">
-  <div class="row">
-    <section class="col-12">
+      </div> <!-- close dropdown -->
+  
+<!--   <a class="nav-item nav-link text-dark" href="/Users/gracelearn/Desktop/website%202.0/about.html">ABOUT</a> -->
+    <a class="nav-item nav-link text-dark" href="/Users/gracelearn/Desktop/website 2.0/Learn_Grace.pdf">RESUME</a>
 
-<nav class="nav flex-column flex-sm-row scrolling-navbar " style="font-family: 'Karla', sans-serif; font-weight: 400">
-  <a class="nav-item nav-link active"  href="/index.html">home</a>
-  <a class="nav-item nav-link" href="/index.html#about">work</a> 
-  <a class="nav-item nav-link" href="/index.html#skills">about me</a>
-  <a class="nav-item nav-link" href="https://drive.google.com/file/d/1Ip_hVz2wHO0S3mXoI7anDIn8cSojDLLW/view?usp=sharing">resume</a>
+  </nav> 
+<!-- close navigation -->
 
-</nav> 
+<div class="container mt-5">
+<!-- allows us to use the bootstrap grid -->
 
+<style>
+  :root {
+    --purple: #DDC8FF;
+  }
+</style>
 
-
- <section id="home" class=" pt-4 pb-1">
-           
-            <div class="container d-flex align-items-center " style="height: 100vh;">
-            <div class="row pt-5 mt-4">
-            <div class="col-5">
-                <div class="wow fadeIn mb-3" style="visibility: visible; animation-name: fadeIn;">
-                        
-                         
-                         <span  style= "font-family: 'Karla'; font-size: 40pt; font-weight: 700 "
-                         >  Airbnb</span>
-                    
-                        <p style= "font-family:'Overpass', sans-serif; font-weight: 600"> <i> Service Design Research </i>
-                        </p>
-                </div>
-                      
-                    
-                                
-                <p class="wow fadeInUp" data-wow-delay="1.8s" style= "font-family:'Overpass', sans-serif; font-weight: 200; font-size: 16"> <span style="font-weight: 700">What:</span> Worked on a team of three students to create a portfolio of options to increase customer loyalty for high-end leisure travelers.<br><br><span style="font-weight: 700">My Role:</span> Design Researcher<br><br><span style="font-weight: 700">When:</span> Jan-Jun '19</p> 
-
-                
-            <!-- close col-5 -->
-            </div>  
-
-            
-
-            <div class="col-4 card">
-      
-   
-    <img src="/paid_membership.png" class="card-img-top pt-3" alt="...">
-    <div class="card-body">
-      <h5 class="card-title" style= "font-family: 'Karla'; font-size: 15pt; font-weight: 700">Airbnb</h5>
-      <p class="card-text" style= "font-family:'Overpass', sans-serif; font-weight: 200; font-size: 16">Worked to increase customer loyalty for high-end leisure travelers.</p> 
-     
-     </div>
  
-                
-                <!-- close card -->
-                </div> 
-            <!-- close column 3 -->
-            </div>
-            <!-- close row 3 -->
+  <div class="col-lg-9 pt-4" style="background-color:#FFFFFF;">
+  <span style= "font-family: 'Karla'; font-size: 14pt; ;">AIRBNB</span> 
+      <br>
+      <!-- <img src="/Users/gracelearn/Desktop/website 2.0/img/haley.png" class="img-fluid pt-1"> -->
+      <img src="/Users/gracelearn/Desktop/website 2.0/img/airbnb.gif" class="img-fluid pt-1" width="800" height="800">
+
+      <br> <br>
+      <p style= "font-family: 'Karla'; font-size: 24pt; font-weight:700">prototyping solutions to improve airbnb loyalty</p>
+  </div>
+
+      <div class= "col-lg-9"> 
+        <div class="row">
+        <div class="col-sm">
+        <span style= "font-family:'Overpass', sans-serif; font-weight: 200; font-size: 12pt"> 
+        
+        <span style="font-weight: 700">Project Overview</span>  
+        <br>
+        Worked on a team of three students to create a portfolio of options to increase customer loyalty for high-end leisure travelers.</i> </a> <br><br>
         </div> 
-<!-- close container -->
-        </div>                           
-                                
-</section>
-                         
-    </header>
-
-            <div class="container mb-3">
-                <div class="media">
-                    <div class="media-body">
-                     <h5 class="mt-1 mb-1" style= "font-family: 'Karla'; font-size: 20pt; font-weight: 700;"><span style="text-decoration: underline; text-decoration-color: #DDC8FF;">Part 1:</span> Airbnb Loyalty</h5> <br><br>
-                      <h5 class="mt-1 mb-1" style= "font-family: 'Karla'; font-size: 15pt; font-weight: 700">The Problem</h5> 
-                        <span style= "font-family:'Overpass', sans-serif; font-weight: 200; font-size: 16">
-                    In our Service Design class at Northwestern San Francisco, My teammates Keren, Michael, and I were given the task of developing a paid membership program to alleviate pain points in the Airbnb guest journey and increase customer loyalty.
-                    <br><br>The primary user we decided to focus on serving is <b>high-end leisure travelers.</b> 
-                    <br><br> By solving the guest's problem, we hoped to solve Airbnb's business problem.
-
-                    <br><br>
-
-                    <img class= "col-lg-10" src="/theproblem.png" alt="...">
-
-                    <br>
-                            <h5 class="mt-3 mb-1" style= "font-family: 'Karla'; font-size: 15pt; font-weight: 700">Our Research</h5> 
-                    </span> 
-
-                    <span  class="" style= "font-family:'Overpass', sans-serif; font-weight: 200; font-size: 16">
-                    Our first step in research was mapping out the guest journey, identifying pain points along the way. After this exercise we were most interested in the transportation and the stay portions of the guest journey. Airbnb does not currently have much to offer guests in the offline portion of their stay.
-                    <br><br>
-
-                    <img class= "col-lg-10" src="/userjourney.png" alt="...">
-
-                    <br><br>
-                    We then mapped out different stakeholders that influence guests when deciding to book an Airbnb. Through creating this map, we decided to look into connecting Airbnb to the web of travel loyalty that already exists.
-                    <br><br>
-                     
-                    <img class= "col-lg-10" src="/loyalty_network.png" alt="...">
-
-                    <br><br>
-
-                    <h5 class="mt-3 mb-1" style= "font-family: 'Karla'; font-size: 15pt; font-weight: 700">The Concept</h5> 
-
-                        <span  class="" style= "font-family:'Overpass', sans-serif; font-weight: 200; font-size: 16">
-                        We came up with the concept for a paid membership program which would include a system of points and rewards earned after each booking. Points can be redeemed for a free night of stay after users hit 200 points. Airbnb members would also be eligible for assistance with transportation throughout their trip through a partnership with Lyft.
-                        <br><br>
-                    
-                    </span>
-                  </div>
-<!--                      <img src="/"> -->
-                     
-                </div>
-            </div>
-            
-            <div class="container mb-3">
-                <div class="media">
-                    <div class="media-body">
-                    
-                 </div>
-             </div>
-         </div>
-            </div>
 
 
-
-            <div class="container">
-                <div class="media mr-3 mb-3">
-                     <iframe width="560" height="315" src="https://www.youtube.com/embed/fgIZGA6DIRw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                         
-
-               <!--      <div class="media-body pl-4"> -->
-                    
-                     <!-- <h5 class=" mt-1 mb-1" style= "font-family: 'Karla'; font-size: 15pt; font-weight: 700"><br><br>Our Process</h5>
-                    <span  style= "font-family:'Overpass', sans-serif; font-weight: 200; font-size: 16">
-                    Our first step in research was mapping out the guest journey, identifying pain points along the way. After this exercise we were most interested in the transportation and the stay portions of the guest journey. Airbnb does not currently have much to offer guests in the offline portion of their stay.
-                    <br><br>
-                    We then mapped out different stakeholders that influence guests when deciding to book an Airbnb. Through creating this map, we decided to look into connecting Airbnb to the web of travel loyalty that already exists
-                        <br><br>
-                        
-                    <br><br>
-                
-                    </span>
-                  </div> -->
-
-
-                     
-                </div>
-
-            </div>
- <div class="container mb-3">
-                <div class="media">
-                    <div class="media-body">
-                    <br><br>  
-
-<h5 class="mt-1 mb-1" style= "font-family: 'Karla'; font-size: 20pt; font-weight: 700;"><span style="text-decoration: underline; text-decoration-color: #DDC8FF;">Part 2:</span> Airbnb Concierge</h5> <br>
-
-
-                        <span style= "font-family:'Overpass', sans-serif; font-weight: 200; font-size: 16">
-                    In the second quarter working with Airbnb, we decided to do a deep dive into Airbnb's opportunity to give their users an elevated customer service experience. <br> <br>
-
-                      <h5 class="mt-1 mb-1" style= "font-family: 'Karla'; font-size: 15pt; font-weight: 700">Understanding Guest Needs</h5> 
-                        <span style= "font-family:'Overpass', sans-serif; font-weight: 200; font-size: 16">
-                    Still looking at high-end leisure travelers, we wanted to see what do HLTs want in a paid membership program?
-                    
-                    We found that they value <i>priotized customer service.</i>
-
-                    <br><br>
-
-                     <img class= "col-lg-8" src="/new_customer_service.png" alt="...">
-
-                     <br><br>
-
-                    <h5 class="mt-1 mb-1" style= "font-family: 'Karla'; font-size: 15pt; font-weight: 700">Exploring Concierge Services</h5> 
-
-
-                    <span style= "font-family:'Overpass', sans-serif; font-weight: 200; font-size: 16">
-                    After discovering that HLTs value prioritized customer service and are interested in a concierge service, we decided to do a deep dive into how traditional concierges help their guests.
-
-
-                    <br><br>
-                    <img class= "col-lg-8" src="/new_guest_experience.png" alt="...">
-
-                    <br><br>
-
-                    <h5 class="mt-1 mb-1" style= "font-family: 'Karla'; font-size: 15pt; font-weight: 700">What do HLTs value in a concierge service?</h5> 
-                  
-                    We then asked HLTs what they value in a concierge service. We conducted a survey with 65 high-end leisure travelers and interviewed two of our users in depth. 
-                    <br> We found that HLTs value <i>security, responsiveness, and exlusivity</i>
-
-                    <br><br>
-
-                    <img class= "col-lg-8" src="/security.png" alt="...">
-
-                    <br><br>
-
-                    <img class= "col-lg-8" src="/responsiveness.png" alt="...">
-
-                    <br><br>
-
-                    <img class= "col-lg-8" src="/exclusivity.png" alt="...">
-
-                    <br><br>
-
-                    <h5 class="mt-1 mb-1" style= "font-family: 'Karla'; font-size: 15pt; font-weight: 700">Prototyping a Text Concierge</h5> 
-
-                    We finished the project by prototyping a text concierge, focusing on the exclusivity value. We wanted to understand how to ingrain exclusivity into those experiences through a concierge service in order to appeal to the needs of HLTs.
-
-                    <br><br>
-
-                    <img class= "col-lg-8" src="/excursion.png" alt="...">
-
-                    <br><br>
-
-                    <img class= "col-lg-8" src="/rename.png" alt="...">
-
-                    <br><br>
-
-                    <img class= "col-lg-8" src="/experience.png" alt="...">
-
-                    <br><br>
-
-
-
-<div  class="container mb-5 align-items-center index-item-navigation reveal-index-nav">
-      <nav class="index-navigation" role="navigation">
+      <div class="col-sm">
+      <span style= "font-family:'Overpass', sans-serif; font-size: 16"><strong>Timeline: </strong>January - June 2019<span>
         
-          <a class="nav-link ml-3 mr-3" style= "font-family: 'Karla'; font-size: 15pt; font-weight: 700" href="/united">United Airlines</a>
-          
+      <br><br>
         
-          <a class="nav-link ml-3 mr-3" style= "font-family: 'Karla'; font-size: 15pt; font-weight: 700" href="/beats">Beats by Dre</a>
-          
-        
-          <a class="nav-link ml-3 mr-3" style= "font-family: 'Karla'; font-size: 15pt; font-weight: 700" href="/airbnb">Airbnb</a>
-          
-         
-      </nav>
+        <strong>Skills:</strong> Rapid Prototyping - Figma - User Interviews 
+       
+       <br><br>
+
+      </span>
+      </div>
+      </i>
+    </div>
+  </span>
+  </div>
+
+<!-- Airbnb Loyalty -->
+
+  <div class="pt-5 col-lg-9">
+    <div style= "font-family: 'Karla'; font-size: 24pt; font-weight:700">Airbnb Loyalty Program
+    <span style="font-size: 16pt; font-weight:500">/part 1 </span> 
     </div>
 
+  <h5 class="mt-3 mb-1" style= "font-family: 'Karla'; font-size: 15pt; font-weight: 700">The Problem</h5> 
+      <span style= "font-family:'Overpass', sans-serif; font-weight: 200; font-size: 16">
+        In our Service Design class at Northwestern San Francisco, My teammates Keren, Michael, and I were given the task of developing a paid membership program to alleviate pain points in the Airbnb guest journey and increase customer loyalty.
+          <br><br>The primary user we decided to focus on serving is high-end leisure travelers. 
+          <br><br>
+        <strong>The Business Problem:</strong> 30% of high-end leisure travelers are satisfied with Airbnb, but not loyal to the service.
+          <br><br>
+        <strong>The User Problem:</strong> Traveling is a stressful experience and Airbnb currently has little to no touchpoints in the offline experience to alleviate pain points.
+      </span> 
+  
+    <img src="/Users/gracelearn/Desktop/website 2.0/img/theproblem.png" class="img-fluid pt-1" width="800" height="800">
+
+ <h5 class="mt-1 mb-1" style= "font-family: 'Karla'; font-size: 15pt; font-weight: 700"><br><br>Our Process</h5>
+      <span style= "font-family:'Overpass', sans-serif; font-weight: 200; font-size: 16">
+        Our first step in research was mapping out the guest journey, identifying pain points along the way. After this exercise we were most interested in the transportation and the stay portions of the guest journey. Airbnb does not currently have much to offer guests in the offline portion of their stay.
+                    
+      <img src="/Users/gracelearn/Desktop/website 2.0/img/userjourney.png" class="img-fluid pt-1" width="800" height="800">
+
+        <br><br>
+        We then mapped out different stakeholders that influence guests when deciding to book an Airbnb. Through creating this map, we decided to look into connecting Airbnb to the web of travel loyalty that already exists
+        <br><br>
+
+        <img src="/Users/gracelearn/Desktop/website 2.0/img/loyalty_network.png" class="img-fluid pt-1" width="800" height="800">
+                        
+        <br><br>
+
+      </span>
+
+      <h5 class="mt-3 mb-1" style= "font-family: 'Karla'; font-size: 15pt; font-weight: 700">The Concept</h5> 
+
+          <span  class="" style= "font-family:'Overpass', sans-serif; font-weight: 200; font-size: 16">
+            We came up with the concept for a paid membership program which would include a system of points and rewards earned after each booking. Points can be redeemed for a free night of stay after users hit 200 points. Airbnb members would also be eligible for assistance with transportation throughout their trip through a partnership with Lyft.
+            <br><br>
+          </span>
+
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fgIZGA6DIRw" allowfullscreen></iframe>
+      </div>
+  </div>
+
+
+<!-- Recommmendation Section -->
+  
+  <div class="py-5 col-lg-9">
+<!-- <h5 class="mt-1 mb-1" style= "font-family: 'Karla'; font-size: 20pt; font-weight: 700;"><span style="text-decoration: underline; text-decoration-color: #DDC8FF;">Part 2:</span> Airbnb Concierge</h5> -->
+
+  <div style= "font-family: 'Karla'; font-size: 24pt; font-weight:700">Airbnb Concierge
+  <span style="font-size: 16pt; font-weight:500">/part 2 </span> </div>
+
+   <span style= "font-family:'Overpass', sans-serif; font-weight: 200; font-size: 16">
+      In the second quarter working with Airbnb, we decided to do a deep dive into Airbnb's opportunity to give their users an elevated customer service experience. <br> <br>
+      <h5 class="mt-1 mb-1" style= "font-family: 'Karla'; font-size: 15pt; font-weight: 700">Understanding Guest Needs</h5> 
+        <span style= "font-family:'Overpass', sans-serif; font-weight: 200; font-size: 16">
+            Still looking at high-end leisure travelers, we wanted to see what HLTs want in a paid membership program?
+                    
+            We found that they value <i>priotized customer service.</i>
+            <br><br>
+        </span>
+
+        <img src="/Users/gracelearn/Desktop/website 2.0/img/new_customer_service.png" class="img-fluid pt-1 pb-5" width="800" height="800">
+
+      <h5 class="mt-3 mb-1" style= "font-family: 'Karla'; font-size: 15pt; font-weight: 700">Exploring Concierge Services</h5> 
+          
+          After discovering that HLTs value prioritized customer service and are interested in a concierge service, we decided to do a deep dive into how traditional concierges help their guests.
+
+        <img src="/Users/gracelearn/Desktop/website 2.0/img/new_guest_experience.png" class="img-fluid pt-1 pb-5" width="800" height="800">
+
+      <h5 class="mt-1 mb-1" style= "font-family: 'Karla'; font-size: 15pt; font-weight: 700">What do HLTs value in a concierge service?</h5> 
+                  
+          We then asked HLTs what they value in a concierge service. We conducted a survey with 65 high-end leisure travelers and interviewed two of our users in depth. 
+          <br><br>
+          We found that HLTs value <i>security, responsiveness, and exlusivity.</i>
+          
+
+          <img src="/Users/gracelearn/Desktop/website 2.0/img/security.png" class="img-fluid width="800" height="800">
+
+          <img src="/Users/gracelearn/Desktop/website 2.0/img/exclusivity.png" class="img-fluid" width="800" height="800">
+
+          <img src="/Users/gracelearn/Desktop/website 2.0/img/responsiveness.png" class="img-fluid" width="800" height="800">
+
+      <h5 class="mt-3 mb-1" style= "font-family: 'Karla'; font-size: 15pt; font-weight: 700">Prototyping a Text Concierge</h5> 
+
+            We finished the project by prototyping a text concierge, focusing on the exclusivity value. We wanted to understand how to ingrain exclusivity into those experiences through a concierge service in order to appeal to the needs of HLTs.
+
+            <br><br>
+
+          <img src="/Users/gracelearn/Desktop/website 2.0/img/excursion.png" class="img-fluid py-2" width= "800" height="800">
+
+          <img src="/Users/gracelearn/Desktop/website 2.0/img/rename.png" class="img-fluid py-2" width="800" height="800">
+
+          <img src="/Users/gracelearn/Desktop/website 2.0/img/experience.png" class="img-fluid" width="800" height="800">
+
+      <h5 class="mt-5 mb-1" style= "font-family: 'Karla'; font-size: 15pt; font-weight: 700">Our Value Add</h5> 
+
+          <span  class="" style= "font-family:'Overpass', sans-serif; font-weight: 200; font-size: 16">
+            1. When designing the concierge service, the three themes <i>(security, exclusivity, responsiveness)</i> that guests value are crucial in ensuring that Airbnb is addressing user needs. 
+            <br><br>
+            2. While we explored exclusivity since this best complemented Airbnb’s brand, Airbnb should continue to look into improving guests’ sense of security as this was another high-priority guest value.
+            <br><br>
+            3. A text concierge is the proven preferred method of delivering the desired concierge service and gives guests a reason to choose Airbnb over other services, thus increasing loyalty.  
+            <br><br>
+          </span>
+
+
+ 
+
+  </div>
+
+
+</div>
+</div>
+
+
+
+</body>
+
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
